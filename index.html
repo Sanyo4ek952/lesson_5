@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/style.css">
+		<title>Lesson 5 - Курс Зима 2022</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header">ССылка<a href="index2.html" class="figma">Урок с фигмой</a></header>
+			<main class="main">
+				<h1 class="name"> Настройка двух роутеров в одной сети. Соединяем два роутера по Wi-Fi и по кабелю</h1>
+				<div class="width-test">
+					<p class="text width">Рассмотрим в этой статье два варианта, которыми можно соединить роутеры между собой в одной сети. Первый вариант – соединение двух роутеров по Wi-Fi, а второй вариант – соединение роутеров по сетевому кабелю. В любом случае, роутеры будут работать в одной сети, и каждый будет раздавать интернет как по кабелю, так и по Wi-Fi.</p>
+					<p class="text">Зачем вообще настраивать такую схему и зачем подключать один роутер к другому? Разные бывают ситуации. Чаще всего, это расширение зоны покрытия Wi-Fi сети, хотя, для таких задач я рекомендую использовать <a class="blue-text" href="https://help-wifi.com/poleznoe-i-interesnoe/chto-takoe-wi-fi-repetir-povtoritel-kak-on-rabotaet-i-chto-znachit-router-v-rezhime-repitera/" target="_blank">репитеры, или роутеры которые могут работать в режиме репитера</a>. Здесь все очень просто. У нас уже установлен и настроен роутер, или модем, который раздает интернет. Мы к этому роутеру подключаем второй, по беспроводной сети, или с помощью сетевого кабеля. Установив второй маршрутизатор в другой комнате, или на другом этаже, он будет раздавать Wi-Fi дальше.</p>
+					<p class="text max-width">Или же таким способом можно подключить интернет от соседа. Платить за одно подключение, и делить его на два роутера. На самом деле, вариантов очень много. И если вы уже зашли на эту страницу, то скорее всего уже знаете для чего вам подключать один роутер ко второму. Поэтому, давайте перейдем ближе к делу.</p>
+					<p class="text min-width"><span class="bold">Совет!</span> Если вы хотите настроить такую схему исключительно для расширения уже существующей Wi-Fi сети, то лучше всего настраивать роутер в режиме репитера, если он поддерживает такую функцию. Устройства от Asus и Zyxel так умеют, вот инструкции:</p>
+					<ul class="width-procent">
+						<li><a class="blue-text" href="https://help-wifi.com/zyxel/nastrojka-zyxel-keenetic-v-rezhime-repitera-wi-fi-klienta-ispolzuem-router-kak-tochku-dostupa/" target="_blank">Настройка Zyxel Keenetic в режиме репитера </a></li>
+						<li><a class="blue-text" href="https://help-wifi.com/asus/nastrojka-routera-asus-v-kachestve-repitera-rezhim-povtoritelya-wi-fi-seti/" target="_blank">Настройка роутера asus в качестве репитера</a></li>
+						<li><a class="blue-text" href="https://help-wifi.com/netis/router-netis-kak-repiter-povtoritel-wi-fi-seti/" target="_blank">Роутер Netis как репитер, повторитель Wi-Fi сети</a></li>
+					</ul>
+				</div>
+				<div class="height-test">
+					<h2 class="title">Два роутера в одной сети: варианты соединения</h2>
+					<p class="text height">Соединить роутеры <span class="bold">по Wi-Fi сети</span>. В режиме WDS, или режим моста. Это одно и то же. В таком случае, можно установить их на относительно большом расстоянии. Ну и кабеля прокладывать не нужно. Но есть и минусы, соединение по Wi-Fi не очень стабильное, так же упадет скорость по беспроводной сети. Если у вас никак не получается использовать для соединения кабель, то вариант с беспроводным соединением вам подойдет. Ну и не каждый роутер поддерживает режим WDS <span class="grey">(особенно из старых устройств)</span>.</p>
+					<p class="text min-height">Второй вариант – соединение двух роутер <span class="bold">с помощью сетевого кабеля</span> в одной сети. Способ надежный, проверенный, но не всегда он подходит и-за того, что приходится прокладывать кабель, да и сам кабель, как правило, нужен длинный и его уже нужно либо покупать, либо делать самому. Можно использовать тот, который идет в комплекте с роутером, но он короткий.</p>
+					<p class="text max-height">Думаю, вы уже выбрали подходящий для себя способ соединения. Сейчас рассмотрим их более подробно.</p>
+					<p class="text height-procent">Думаю, вы уже выбрали подходящий для себя способ соединения. Сейчас рассмотрим их более подробно.</p>
+				</div>
+				<div class="test">
+					<h2 class="title">Соединяем два роутера по Wi-Fi (в режиме WDS)</h2>
+					<p class="text alignment">Рассмотрим мы на примере самых популярных производителей: Asus, Tp-Link, Zyxel, и D-link.</p>
+					<p class="text scroll">Lorem ipsum dolor sit, amet consectetur adipisicing elit. In aliquam voluptate a optio, dolore cupiditate veniam magnam beatae possimus rerum inventore quasi et ab fugiat quia corrupti totam corporis. Necessitatibus. Значит, у вас должен быть главный роутер, который должен раздавать Wi-Fi сеть, к которой мы подключим второй. Он может быть любой. В том смысле, что не обязательно чтобы это были например два роутера Tp-Link <span class="grey">(хотя желательно)</span>.</p>
+					<p class="text auto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. In aliquam voluptate a optio, dolore cupiditate veniam magnam beatae possimus rerum inventore quasi et ab fugiat quia corrupti totam corporis. Necessitatibus. ужно ли менять настройки главного роутера? Да. В настройках главного роутера нужно задать статический канал беспроводной сети. В противном случае, могут наблюдаться проблемы в работе соединения. Как сменить канал на разных роутерах, я писал <a class="blue-text" href="https://help-wifi.com/sovety-po-nastrojke/kak-najti-svobodnyj-wi-fi-kanal-i-smenit-kanal-na-routere/" target="_blank">в этой инструкции</a>. Установите например статический 6 канал. И запомните его, он нам еще пригодится.</p>
+					<p class="text hidden">Lorem ipsum dolor sit, amet consectetur adipisicing elit. In aliquam voluptate a optio, dolore cupiditate veniam magnam beatae possimus rerum inventore quasi et ab fugiat quia corrupti totam corporis. Necessitatibus. Все, больше никакие настройки главного устрйоства изменять не нужно.</p>
+				</div>
+				<h2 class="title">Настройка WDS соединения на роутере Tp-Link</h2>
+				<p class="text">По настройке такой схемы на Tp-Link, у нас есть отдельная, подробная инструкция: <a class="blue-text" href="https://help-wifi.com/tp-link/nastrojka-routera-tp-link-v-rezhime-mosta-wds-soedinyaem-dva-routera-po-wi-fi/" target="_blank">Настройка роутера Tp-Link в режиме моста (WDS). Соединяем два роутера по Wi-Fi</a>. Если у вас Tp-Link <span class="grey">(TL-WR740ND, TL-WR841N, TL-WR941ND, TL-MR3220, TL-WR842ND и т. д.)</span>, то можете смело переходить по ссылке.</p>
+				<img src="img/WDS.jpg" alt="Настройка">
+				<p class="text">Там все очень просто: заходим в настройки, меняем IP адрес роутера, и настраиваем режим WDS. Не буду здесь все подробно описывать, так как по ссылке выше есть очень подробная инструкция. С Tp-Link разобрались, перейдем к моделям других производителей.</p>
+				<h2 class="title">Настройка режима моста на роутере Asus</h2>
+				<p class="text">Сидел только что больше часа, разбирался что да как там с режимом моста на роутерах Asus, и могу сказать, что сделали они там все очень сложно и запутано. Насколько я понял, настроить WDS на роутере Asus можно только в том случае, если у вас главный роутер так же Asus. Там на обоих роутерах нужно прописывать MAC-адреса, и т. д. Возможно я ошибаюсь, поправьте меня (в комментариях). Проверял на Asus RT-N12, и RT-N18.</p>
+				<img src="img/setting.jpg" alt="Настройка">
+				<p class="text">Вот у Tp-Link без всех этих заморочек все работает. Даю ссылку на инструкцию по настройке на официальном сайте Asus: <a class="blue-text" href="https://www.asus.com/ua/support/faq/109839" target="_blank">https://www.asus.com/ua/support/faq/109839</a>. А я обязательно разберусь с этими настройками, и подготовлю отдельную статью по настройке режима моста на маршрутизаторах Asus.</p>
+				<p class="text">Или советую <a class="blue-text" href="https://help-wifi.com/asus/nastrojka-routera-asus-v-kachestve-repitera-rezhim-povtoritelya-wi-fi-seti/" target="_blank">настроить его в режиме повторителя</a>. Там все намного проще, и все работает. Проверено.</p>
+				<span class="inlain-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, adipisci, labore in autem nulla ipsa est optio consequuntur culpa debitis, ullam ea. Tenetur velit mollitia odit? Porro ex laudantium vel!</span>
+
+			</main>
+			<footer class="footer"></footer>
+		</div>
+	</body>
+</html>
